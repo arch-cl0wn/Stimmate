@@ -95,12 +95,12 @@ We plan to integrate WearOS smartwatch capabilities into our app, allowing users
 ## Technical Components
 
 
--Frontend: React-based user interface for easy interaction and visually appealing designs.
--Backend: MongoDB database for fast retrievals and large user base compatibility.
--Websocket: Socket.IO enables quick message transmission for the chat interface.
--Technologies: TFRS ranking system for recommendations, TensorFlow.js's Universal Encoder for NLP tasks, WearOS for smartwatch integration, and GCP's Vertex AI (text-bison@001) for an adaptive user interface.
--Tools: Google Colab for model development, GCP's Vertex AI Platform for training, and Google Forms for data collection.
-Deployment: Google cloud run for hassle-free scaling of the app
+- Frontend: React-based user interface for easy interaction and visually appealing designs.
+- Backend: MongoDB database for fast retrievals and large user base compatibility.
+- Websocket: Socket.IO enables quick message transmission for the chat interface.
+- Technologies: TFRS ranking system for recommendations, TensorFlow.js's Universal Encoder for NLP tasks, WearOS for smartwatch integration, and GCP's Vertex AI (text-bison@001) for an adaptive user interface.
+- Tools: Google Colab for model development, GCP's Vertex AI Platform for training, and Google Forms for data collection.
+- Deployment: Google cloud run for hassle-free scaling of the app
 
 ## Requirements
 
