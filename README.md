@@ -130,6 +130,10 @@ https://github.com/arch-cl0wn/Stimmate/assets/94600964/2e96ad82-7a3f-4f9b-a0b2-4
 
 
 
+https://github.com/arch-cl0wn/Stimmate/assets/94600964/1ccd9016-786c-4566-b24a-1c2eb33bb247
+
+
+
 
 
 ## License
