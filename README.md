@@ -91,6 +91,17 @@ As a team of neurodivergent individuals, we were inspired to create StimMate bas
 
 We plan to integrate WearOS smartwatch capabilities into our app, allowing users to track stims more accurately on-the-go. This integration will improve stim recommendations and reporting accuracy while providing a seamless user experience.
 
+
+## Technical Components
+
+
+- Frontend: React-based user interface for easy interaction and visually appealing designs.
+- Backend: MongoDB database for fast retrievals and large user base compatibility.
+- Websocket: Socket.IO enables quick message transmission for the chat interface.
+- Technologies: TFRS ranking system for recommendations, TensorFlow.js's Universal Encoder for NLP tasks, WearOS for smartwatch integration, and GCP's Vertex AI (text-bison@001) for an adaptive user interface.
+- Tools: Google Colab for model development, GCP's Vertex AI Platform for training, and Google Forms for data collection.
+- Deployment: Google cloud run for hassle-free scaling of the app
+
 ## Requirements
 
 
@@ -120,6 +131,18 @@ We plan to integrate WearOS smartwatch capabilities into our app, allowing users
 
 
 ## Demo
+
+
+
+
+
+https://github.com/arch-cl0wn/Stimmate/assets/94600964/2e96ad82-7a3f-4f9b-a0b2-4583c1568901
+
+
+
+
+https://github.com/arch-cl0wn/Stimmate/assets/94600964/1ccd9016-786c-4566-b24a-1c2eb33bb247
+
 
 
 
