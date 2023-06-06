@@ -123,7 +123,11 @@ We plan to integrate WearOS smartwatch capabilities into our app, allowing users
 
 
 
-https://github.com/arch-cl0wn/Stimmate/assets/94600964/7284dc63-2665-4736-993d-a1d6b9852409
+
+
+https://github.com/arch-cl0wn/Stimmate/assets/94600964/2e96ad82-7a3f-4f9b-a0b2-4583c1568901
+
+
 
 
 
