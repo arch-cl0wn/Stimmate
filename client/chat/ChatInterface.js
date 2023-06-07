@@ -13,7 +13,7 @@ const ChatInterface = () => {
     try {
       const response = await getChatAPIResponse(content);
       const responseContent = response.message; // Adjust it according to the GCP response structure
-      setMessages([...messages, { type: 'Assistant', content: responseContent }]);
+      setMessages([messages, { type: 'Assistant', content: responseContent }]);
     } catch (error) {
       console.error(error);
     }
