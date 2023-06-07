@@ -1,6 +1,8 @@
 import config from './../config/config'
 import app from './express'
 import mongoose from 'mongoose'
+const gcpAPI = require('./routes/gcpAPI');
+app.use('/api', gcpAPI);
 
 // Connection URL
 mongoose.Promise = global.Promise

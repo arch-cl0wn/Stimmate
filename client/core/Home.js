@@ -10,6 +10,7 @@ import Picture1 from './../assets/images/pic1.png'
 import Picture from './../assets/images/pic.png'
 import Picture2 from './../assets/images/pic2.png'
 import Typography from '@material-ui/core/Typography'
+import ChatInterface from "../chat/ChatInterface";
 
 
 const useStyles = makeStyles(theme => ({
@@ -71,7 +72,7 @@ export default function Home({history}){
                     <Typography variant="h1" align="center">Share Your Thoughts</Typography>
                     <br/>
                     <Typography variant="body1" align="center">
-                    Have something so say? Share your thoughts with the world with Quillinx Journals !!
+                    Have something so say? Share your thoughts to the AI assistant !!
                     </Typography>
                 </Paper>
                 </Grid>
@@ -82,10 +83,10 @@ export default function Home({history}){
             <Grid container spacing={0} alignItems="center" justify="center">
                 <Grid item xs={5}>
                 <Paper elevation={0} className={classes.paper}>
-                <Typography variant="h1" align="center">Chat With Friends</Typography>
+                <Typography variant="h1" align="center">Chat With AI</Typography>
                 <br/>
                     <Typography variant="body1" style={{justify: "center", alignContent: "center"}}>
-                      Get in touch with people all around the world without caring for your privacy being compromised :D
+                      Get in touch with A personalised stim-recommender AI chatbot
                     </Typography>
                   </Paper>
                 </Grid>
@@ -106,7 +107,7 @@ export default function Home({history}){
                 <Typography variant="h1" align="center">Capture Moments</Typography>
                 <br/>
                   <Typography variant="body1" style={{justify: "center", alignContent: "center"}}>
-                    Connect with people better through posts and a newsfeed that keeps you updated on your favourite people.
+                    Understand youself and find better stims with more interactions with the AI Assistant
                     </Typography>
                 </Paper>
                 </Grid>
@@ -117,16 +118,19 @@ export default function Home({history}){
           </div>
   
         }
-        {defaultPage &&
-          <Grid container spacing={4} style={{marginLeft: 'auto'}}>
-            <Grid item xs={12} sm={8}>
-              <Newsfeed/>
-            </Grid>
-            <Grid item sm={3}>
-              <Paper style={{height:'350px', alignItems: 'center', justify: 'center'}}>ADS</Paper>
-            </Grid>
+        {defaultPage && (
+        <Grid container spacing={4} style={{ marginLeft: 'auto' }}>
+          <Grid item xs={12} sm={5}>
+            <Newsfeed />
           </Grid>
-        }
+          <Grid item xs={12} sm={5}>
+            <ChatInterface />
+          </Grid>
+          <Grid item sm={2}>
+            <Paper style={{ height: '350px', alignItems: 'center', justify: 'center' }}>ADS</Paper>
+          </Grid>
+        </Grid>
+      )}
       </div>
     )
 }

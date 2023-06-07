@@ -44,6 +44,8 @@ app.use('/dist', express.static(path.join(CURRENT_WORKING_DIR, 'dist')))
 
 
 // mount routes
+const gcpAPI = require('./routes/gcpAPI');
+app.use('/api', gcpAPI);
 app.use('/', userRoutes)
 app.use('/', authRoutes)
 app.use('/', postRoutes)
